@@ -1,0 +1,15 @@
+name: mnist
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.6
+  - pandas=0.22.0
+  - matplotlib
+  - scikit-learn=0.19.1
+  - jupyter
+  - nb_conda
+  - pytorch
+  - torchvision
+  - pip:
+    - tensorflow==1.5
