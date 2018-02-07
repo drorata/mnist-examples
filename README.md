@@ -33,7 +33,8 @@ conda env create -f environment.yml
 ### Simple FNN
 
 
-Based on [this post](https://www.kdnuggets.com/2018/02/simple-starter-guide-build-neural-network.html)
+Based on [this post](https://www.kdnuggets.com/2018/02/simple-starter-guide-build-neural-network.html).
+Code is available on [GitHub](https://github.com/yhuag/neural-network-lab).
 
 
 ## Scikit Learn
