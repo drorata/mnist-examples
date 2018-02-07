@@ -1,5 +1,9 @@
 # Some examples on MNIST
 
+## Running the examples
+
+### Docker Based
+
 You can easily tryout the examples by using the docker image.
 Build it by:
 
@@ -15,6 +19,14 @@ docker run -it --rm mnist bin/bash
 
 Once inside the container, make sure you activate the `conda` environment: `source activate mnist`.
 Now you can run the scripts; e.g. `python project/torch_fnn_train.py`.
+
+### Conda Based
+
+If you use `conda`, on your local machine you can start an environment by:
+
+```bash
+conda env create -f environment.yml
+```
 
 ## Torch
 
