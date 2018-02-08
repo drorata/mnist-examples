@@ -9,7 +9,7 @@ dependencies:
   - scikit-learn=0.19.1
   - jupyter
   - nb_conda
-  - pytorch
-  - torchvision
+  - pytorch=0.3.0
+  - torchvision=0.2.0
   - pip:
     - tensorflow==1.5
